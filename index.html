@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Toy Tale</title>
-    <script type="text/javascript" src="src/index.js"></script>
+    <script defer type="text/javascript" src="src/index.js"></script>
     <link rel="stylesheet" href="index.css">
   </head>
   <body>
@@ -16,9 +16,9 @@
       <form class="add-toy-form" style="">
         <h3>Create a toy!</h3>
 
-        <input type="text" name="name" value="" placeholder="Enter a toy's name..." class="input-text">
+        <input id="new-name" type="text" name="name" value="" placeholder="Enter a toy's name..." class="input-text">
         <br>
-        <input type="text" name="image" value="" placeholder="Enter a toy's image URL..." class="input-text">
+        <input id="new-image" type="text" name="image" value="" placeholder="Enter a toy's image URL..." class="input-text">
         <br>
         <input type="submit" name="submit" value="Create New Toy" class="submit">
       </form>
